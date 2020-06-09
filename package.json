@@ -1,5 +1,5 @@
 {
-  "name": "t-express",
+  "name": "ts-rest",
   "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
