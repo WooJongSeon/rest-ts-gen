@@ -1,0 +1,18 @@
+{
+  "name": "t-express",
+  "version": "0.0.8",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf dist",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "test:unit": "npx jest --clearCache && npx jest --detectOpenHandles --verbose --runInBand --forceExit",
+    "test:unit:specific": "npx jest tests/dataProcessing.spec.ts --detectOpenHandles --verbose --runInBand --forceExit",
+    "test:coverage": "npx jest --coverage --detectOpenHandles --runInBand --forceExit"
+  },
+  "type": "module",
+  "author": "jswoo",
+  "license": "ISC"
+}
