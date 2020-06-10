@@ -1,6 +1,6 @@
 {
   "name": "rest-ts-gen",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,5 +14,9 @@
   },
   "type": "module",
   "author": "jswoo",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "rimraf": "^3.0.2"
+  }
 }
